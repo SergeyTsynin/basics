@@ -12,7 +12,7 @@ public class Task3 {
     // и цикл
     private static int squaresSumSeries2(int lim) {
         int result = 0;
-        for (int i = 1; i < lim; i++) {
+        for (int i = 1; i <= lim; i++) {
             result += (i * i);
         }
         return result;
