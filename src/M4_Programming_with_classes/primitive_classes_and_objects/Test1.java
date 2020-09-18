@@ -8,8 +8,8 @@ public class Test1 {
      * и метод, который находит наибольшее значение из этих двух переменных.
      */
 
-    private int variable1;
-    private int variable2;
+    private int variable1 = 0;
+    private int variable2 = 0;
 
     private void printoutVariables() {
         System.out.println("variable1 = " + variable1);
