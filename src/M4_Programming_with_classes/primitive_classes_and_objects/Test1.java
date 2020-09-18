@@ -11,15 +11,6 @@ public class Test1 {
     private int variable1;
     private int variable2;
 
-    public static void main(String[] args) {
-        Test1 test = new Test1();
-        test.changeVariable1();
-        test.changeVariable2();
-        test.printoutVariables();
-        System.out.println(test.getSumOfVariables());
-        System.out.println(test.getTheGreatest());
-    }
-
     private void printoutVariables() {
         System.out.println("variable1 = " + variable1);
         System.out.println("variable2 = " + variable2);
